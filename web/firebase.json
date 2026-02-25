@@ -1,0 +1,52 @@
+{
+  "hosting": {
+    "public": "out",
+    "cleanUrls": true,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/welcome.html",
+        "type": 302
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/quiz",
+        "destination": "/quiz.html"
+      },
+      {
+        "source": "/therapist-page",
+        "destination": "/therapist-page.html"
+      },
+      {
+        "source": "/emotions_female",
+        "destination": "/emotions_female.html"
+      },
+      {
+        "source": "/shop",
+        "destination": "/shop.html"
+      },
+      {
+        "source": "/profile",
+        "destination": "/profile.html"
+      },
+      {
+        "source": "/home/female",
+        "destination": "/home/female.html"
+      },
+      {
+        "source": "/settings",
+        "destination": "/settings.html"
+      },
+      {
+        "source": "/profile",
+        "destination": "/profile.html"
+      }
+    ]
+  }
+}

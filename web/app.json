@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Moodly",
+    "slug": "moodly-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/LOGO1024x1024.png",
+    "splash": {
+      "image": "./images/LOGO1242x2436.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "android": {
+      "package": "com.dantvi.moodly",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4930ae7b-85fd-4d11-a64c-2bfc357d56b8"
+      }
+    }
+  }
+}

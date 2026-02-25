@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@react-native-community/cli": "^13.6.9"
+  },
+  "dependencies": {
+    "expo-router": "^6.0.23",
+    "firebase": "^12.9.0",
+    "react-native-chart-kit": "^6.12.0"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/blog/blog-1",
+      "regex": "^/blog/blog\\-1(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/blog\\-1(?:/)?$"
+    },
+    {
+      "page": "/blog/blog-2",
+      "regex": "^/blog/blog\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/blog\\-2(?:/)?$"
+    },
+    {
+      "page": "/blog/blog-3",
+      "regex": "^/blog/blog\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/blog\\-3(?:/)?$"
+    },
+    {
+      "page": "/blog/blog-4",
+      "regex": "^/blog/blog\\-4(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/blog\\-4(?:/)?$"
+    },
+    {
+      "page": "/blog/blog-5",
+      "regex": "^/blog/blog\\-5(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog/blog\\-5(?:/)?$"
+    },
+    {
+      "page": "/contact/marija",
+      "regex": "^/contact/marija(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact/marija(?:/)?$"
+    },
+    {
+      "page": "/edit-profile",
+      "regex": "^/edit\\-profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/edit\\-profile(?:/)?$"
+    },
+    {
+      "page": "/emotion-journal",
+      "regex": "^/emotion\\-journal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emotion\\-journal(?:/)?$"
+    },
+    {
+      "page": "/emotions_female",
+      "regex": "^/emotions_female(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emotions_female(?:/)?$"
+    },
+    {
+      "page": "/emotions_male",
+      "regex": "^/emotions_male(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emotions_male(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/help",
+      "regex": "^/help(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/help(?:/)?$"
+    },
+    {
+      "page": "/home/female",
+      "regex": "^/home/female(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home/female(?:/)?$"
+    },
+    {
+      "page": "/home/male",
+      "regex": "^/home/male(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/home/male(?:/)?$"
+    },
+    {
+      "page": "/info",
+      "regex": "^/info(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/info(?:/)?$"
+    },
+    {
+      "page": "/items",
+      "regex": "^/items(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/items(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
+      "page": "/quiz",
+      "regex": "^/quiz(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/quiz(?:/)?$"
+    },
+    {
+      "page": "/register",
+      "regex": "^/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/register(?:/)?$"
+    },
+    {
+      "page": "/rsettings",
+      "regex": "^/rsettings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/rsettings(?:/)?$"
+    },
+    {
+      "page": "/settings",
+      "regex": "^/settings(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/settings(?:/)?$"
+    },
+    {
+      "page": "/shop",
+      "regex": "^/shop(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/shop(?:/)?$"
+    },
+    {
+      "page": "/signin",
+      "regex": "^/signin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signin(?:/)?$"
+    },
+    {
+      "page": "/statistics",
+      "regex": "^/statistics(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/statistics(?:/)?$"
+    },
+    {
+      "page": "/therapist-page",
+      "regex": "^/therapist\\-page(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/therapist\\-page(?:/)?$"
+    },
+    {
+      "page": "/welcome",
+      "regex": "^/welcome(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/welcome(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
